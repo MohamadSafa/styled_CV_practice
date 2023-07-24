@@ -1,0 +1,127 @@
+/* Write CSS Here */
+header {
+    background-color: #2e4052;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: flex-start;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.stack {
+    color: #469B83;
+}
+
+.full {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+    
+.image {
+    background-color: #777;
+    position: absolute;
+    display: inline;
+            top: 10px;
+            right: 10px;
+            max-width: 200px;
+            max-height: 200px;
+            border: 2px solid;
+            border-radius: 50%;
+            overflow: hidden;}
+            
+
+.image img{
+    margin-top: -150px;
+    margin-left: -150px;
+
+}
+
+h2 {
+    color: #469B83;
+    text-decoration: underline;
+}
+
+.list li {
+    padding: 40px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    margin-right: 20px;
+}
+
+.honors li {
+    list-style-type: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+    background-color: #111816;
+    background-size: cover;
+    background-position: -1px;
+    margin: -10px;
+}
+
+button {
+    text-align: center;
+    border-radius: 4px;
+    display: inline-flex;
+    padding: -20px;
+    margin: auto;
+    place-self: center; 
+}
+
+.arabic {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.english {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.native {
+    color: #469B83;
+}
+
+.working {
+    color: #469B83;
+}
+
+.full {
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width:500px) {
+    body {background-color: #469B83;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
